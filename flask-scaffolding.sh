@@ -21,7 +21,6 @@ cd ${$PROJECT-NAME,,}
 
 touch app.py __init__.py
 
-
 mkdir templates static
 
 touch templates/layout.html static/main.css
