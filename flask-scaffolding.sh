@@ -10,7 +10,7 @@ PROJECT-NAME=$1
 mkdir -p ~/Projects/$PROJECT-NAME/${$PROJECT-NAME,,}
 
 cd ~/Projects/$PROJECT-NAME/${$PROJECT-NAME,,}
-
+
 touch requirements.txt .gitignore Dockerfile docker-compose.yml .dockerignore
 mkdir ${$PROJECT-NAME,,} config instance
 
@@ -19,8 +19,10 @@ instance/settings.py_production_example
 
 cd ${$PROJECT-NAME,,}
 
-touch app.py __init__.py
+touch app.py __init__.py
+
 
 mkdir templates static
 
-touch templates/layout.html static/main.css
+touch templates/layout.html static/main.css
+
